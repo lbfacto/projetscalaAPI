@@ -1,0 +1,6 @@
+run
+play
+sbt
+run sbt
+run
+compile

@@ -1,0 +1,9 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/papalayeba/Bureau/play-2.0/api-projet-uvs-scala/conf/routes:7:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method index,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /                           controllers.HomeController.index[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/papalayeba/Bureau/play-2.0/api-projet-uvs-scala/conf/routes:7:1: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method index,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0mGET     /                           controllers.HomeController.index[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m

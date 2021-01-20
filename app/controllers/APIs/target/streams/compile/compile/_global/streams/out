@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/papalayeba/Bureau/play-2.0/api-projet-uvs-scala/app/controllers/APIs/projetController.scala:3:8: not found: object play[0m
+[0m[[0m[31merror[0m] [0m[0mimport play.api.mvc._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/papalayeba/Bureau/play-2.0/api-projet-uvs-scala/app/controllers/APIs/projetController.scala:4:14: object inject is not a member of package javax[0m
+[0m[[0m[31merror[0m] [0m[0mimport javax.inject._[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/papalayeba/Bureau/play-2.0/api-projet-uvs-scala/app/controllers/APIs/projetController.scala:5:8: not found: object play[0m
+[0m[[0m[31merror[0m] [0m[0mimport play.api._[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/papalayeba/Bureau/play-2.0/api-projet-uvs-scala/app/controllers/APIs/projetController.scala:12:2: trait Singleton is abstract; cannot be instantiated[0m
+[0m[[0m[31merror[0m] [0m[0m@Singleton[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

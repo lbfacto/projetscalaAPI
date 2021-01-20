@@ -1,0 +1,144 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addPluginSbtFile="""/tmp/idea.sbt"""), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addPluginSbtFile="""/tmp/idea.sbt""", None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.4.3 (Oracle Corporation Java 15.0.1)[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: plugins took 536.796997ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: defsScala took 2.413425ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/papalayeba/.sbt/1.0/plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/papalayeba/.sbt/1.0/plugins, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 197.650548 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.resolveProject(global-plugins) took 303.520784ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/papalayeba/.sbt/1.0/plugins, plugins: List(<none>))) took 657.066338ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/papalayeba/.sbt/1.0/plugins, returning: (global-plugins)[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: loadedProjectsRaw took 830.657571ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: cleanEvalClasses took 0.965818ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit(file:/home/papalayeba/.sbt/1.0/plugins/, ...) took 1448.783817ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: load took 2429.289678ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: resolveProjects took 27.511936ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: finalTransforms took 254.062391ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: config.delegates took 55.650079ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: Def.make(settings)... took 2178.840544ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: structureIndex took 466.687485ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: mkStreams took 3.821405ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading global plugins from /home/papalayeba/.sbt/1.0/plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 36415.132271ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 68.862333ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.007872ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/papalayeba/Bureau/play-2.0/api-projet-uvs-scala/project[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadUnit: mkEval took 23.938688ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/papalayeba/Bureau/play-2.0/api-projet-uvs-scala/project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 7.485232 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project api-projet-uvs-scala-build from plugins.sbt,idea.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(api-projet-uvs-scala-build) took 13.859241ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id api-projet-uvs-scala-build, base: /home/papalayeba/Bureau/play-2.0/api-projet-uvs-scala/project, plugins: List(<none>))) took 25.995874ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/papalayeba/Bureau/play-2.0/api-projet-uvs-scala/project, returning: (api-projet-uvs-scala-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 17808.485914ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 25.51716ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/home/papalayeba/Bureau/play-2.0/api-projet-uvs-scala/project/, ...) took 17909.1063ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 17914.933712ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 0.379889ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 88.756848ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 6.163846ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 780.341847ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 118.197182ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 0.006658ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /home/papalayeba/Bureau/play-2.0/api-projet-uvs-scala/project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m	Note: Unresolved dependencies path:[0m
+[0m[[0m[31merror[0m] [0m[0msbt.librarymanagement.ResolveException: Error downloading org.jetbrains.scala:scala-compiler-indices-protocol_2.12:1.0.8[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/jetbrains/scala/scala-compiler-indices-protocol_2.12/1.0.8/scala-compiler-indices-protocol_2.12-1.0.8.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /home/papalayeba/.ivy2/local/org.jetbrains.scala/scala-compiler-indices-protocol_2.12/1.0.8/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /home/papalayeba/.local/share/JetBrains/IdeaIC2020.3/Scala/repo/org.jetbrains.scala/scala-compiler-indices-protocol_2.12/1.0.8/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo.scala-sbt.org (repo.scala-sbt.org) while downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains.scala/scala-compiler-indices-protocol_2.12/1.0.8/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo.typesafe.com (repo.typesafe.com) while downloading https://repo.typesafe.com/typesafe/ivy-releases/org.jetbrains.scala/scala-compiler-indices-protocol_2.12/1.0.8/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.scala-lang.modules:scala-xml_2.12:1.1.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.1.1/scala-xml_2.12-1.1.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /home/papalayeba/.ivy2/local/org.scala-lang.modules/scala-xml_2.12/1.1.1/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /home/papalayeba/.local/share/JetBrains/IdeaIC2020.3/Scala/repo/org.scala-lang.modules/scala-xml_2.12/1.1.1/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo.scala-sbt.org (repo.scala-sbt.org) while downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang.modules/scala-xml_2.12/1.1.1/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo.typesafe.com (repo.typesafe.com) while downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang.modules/scala-xml_2.12/1.1.1/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.scala-lang.modules:scala-xml_2.12:1.2.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /home/papalayeba/.ivy2/local/org.scala-lang.modules/scala-xml_2.12/1.2.0/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /home/papalayeba/.local/share/JetBrains/IdeaIC2020.3/Scala/repo/org.scala-lang.modules/scala-xml_2.12/1.2.0/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo.scala-sbt.org (repo.scala-sbt.org) while downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang.modules/scala-xml_2.12/1.2.0/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang.modules/scala-xml_2.12/1.2.0/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Either$LeftProjection.map(Either.scala:573)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:53)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.control.Exception$Catch.apply(Exception.scala:228)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:97)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:3484)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:832)[0m
+[0m[[0m[31merror[0m] [0m[0m([31mupdate[0m) sbt.librarymanagement.ResolveException: Error downloading org.jetbrains.scala:scala-compiler-indices-protocol_2.12:1.0.8[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/jetbrains/scala/scala-compiler-indices-protocol_2.12/1.0.8/scala-compiler-indices-protocol_2.12-1.0.8.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /home/papalayeba/.ivy2/local/org.jetbrains.scala/scala-compiler-indices-protocol_2.12/1.0.8/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /home/papalayeba/.local/share/JetBrains/IdeaIC2020.3/Scala/repo/org.jetbrains.scala/scala-compiler-indices-protocol_2.12/1.0.8/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo.scala-sbt.org (repo.scala-sbt.org) while downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jetbrains.scala/scala-compiler-indices-protocol_2.12/1.0.8/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo.typesafe.com (repo.typesafe.com) while downloading https://repo.typesafe.com/typesafe/ivy-releases/org.jetbrains.scala/scala-compiler-indices-protocol_2.12/1.0.8/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.scala-lang.modules:scala-xml_2.12:1.1.1[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.1.1/scala-xml_2.12-1.1.1.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /home/papalayeba/.ivy2/local/org.scala-lang.modules/scala-xml_2.12/1.1.1/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /home/papalayeba/.local/share/JetBrains/IdeaIC2020.3/Scala/repo/org.scala-lang.modules/scala-xml_2.12/1.1.1/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo.scala-sbt.org (repo.scala-sbt.org) while downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang.modules/scala-xml_2.12/1.1.1/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo.typesafe.com (repo.typesafe.com) while downloading https://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang.modules/scala-xml_2.12/1.1.1/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading org.scala-lang.modules:scala-xml_2.12:1.2.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo1.maven.org (repo1.maven.org) while downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /home/papalayeba/.ivy2/local/org.scala-lang.modules/scala-xml_2.12/1.2.0/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: /home/papalayeba/.local/share/JetBrains/IdeaIC2020.3/Scala/repo/org.scala-lang.modules/scala-xml_2.12/1.2.0/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  download error: Caught java.net.UnknownHostException: repo.scala-sbt.org (repo.scala-sbt.org) while downloading https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-lang.modules/scala-xml_2.12/1.2.0/ivys/ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo.typesafe.com/typesafe/ivy-releases/org.scala-lang.modules/scala-xml_2.12/1.2.0/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadFailed, None, None)[0m
+[0m[[0m[33mwarn[0m] [0m[0mProject loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)[0m
